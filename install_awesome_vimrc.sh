@@ -15,4 +15,6 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
+echo 'autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif' >> ~/.vimrc
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
